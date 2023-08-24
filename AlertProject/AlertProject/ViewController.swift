@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let alert = UIAlertController(title: "ERROR !", message: "Username not found!", preferredStyle: UIAlertController.Style.alert)
         // Alert icerisinde button olusturduk
         let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel)
-        // Olusturdugumuz aksiyonu butona ekliyoruz 
+        // Olusturdugumuz aksiyonu butona ekliyoruz 4
         alert.addAction(okButton)
         
         // present methoduyla VC'da gostermek istedigimiz alert objesini present ettik. self.present ile de bu VC sinifinin kendi icinde bu islemleri gerceklestirmesini soyluyoruz
